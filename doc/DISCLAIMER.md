@@ -14,5 +14,6 @@ Now you can use transfer function
 $ transfer hello.txt
 ```
 
+### How to
 
 https://github.com/dutchcoders/transfer.sh/blob/main/examples.md
