@@ -1,0 +1,14 @@
+[Unit]
+Description=Transfer.sh: videoconferencing server
+After=network.target
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+WorkingDirectory=__FINALPATH__/
+ExecStart=__FINALPATH__/transfersh --provider=local --listener :__PORT__ --temp-path=/tmp/ --basedir=__DATADIR__ --email-contact=__EMAIL__ --http-auth-user=__ADMIN__ --http-auth-pass=__PASSWORD__
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

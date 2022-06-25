@@ -1,0 +1,54 @@
+{
+    "name": "transfer.sh",
+    "id": "transfersh",
+    "packaging_format": 1,
+    "description": {
+        "en": "Easy and fast file sharing from the command-line",
+        "fr": "Partage de fichiers simple et rapide depuis la ligne de commande"
+    },
+    "version": "1.4.0~ynh1",
+    "url": "https://transfer.sh/",
+    "upstream": {
+        "license": "MIT",
+        "website": "https://transfer.sh/",
+        "admindoc": "https://github.com/dutchcoders/transfer.sh/",
+        "code": "https://github.com/dutchcoders/transfer.sh"
+    },
+    "license": "MIT",
+    "maintainer": {
+        "name": "",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx"
+    ],
+    "arguments": {
+        "install": [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            },
+            {
+                "name": "admin",
+                "type": "user"
+            },
+            {
+                "name": "password",
+                "type": "password",
+                "help": {
+                    "en": "Use the help field to add an information for the admin about this question.",
+                    "fr": "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+                }
+            }
+        ]
+    }
+}
