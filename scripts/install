@@ -111,16 +111,6 @@ chmod -R o-rwx "$datadir"
 chown -R $app:www-data "$datadir"
 
 #=================================================
-# ADD A CONFIGURATION
-#=================================================
-# ynh_script_progression --message="Adding a configuration file..." --time --weight=1
-
-# ynh_add_config --template="../conf/.env" --destination="$final_path/.env"
-
-# chmod 400 "$final_path/.env"
-# chown $app:$app "$final_path/.env"
-
-#=================================================
 # SETUP SYSTEMD
 #=================================================
 ynh_script_progression --message="Configuring a systemd service..." --weight=1
