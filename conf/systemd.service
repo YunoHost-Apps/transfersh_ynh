@@ -1,5 +1,5 @@
 [Unit]
-Description=Transfer.sh: videoconferencing server
+Description=Transfersh: file sharing
 After=network.target
 
 [Service]
