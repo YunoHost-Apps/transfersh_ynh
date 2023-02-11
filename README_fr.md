@@ -5,15 +5,15 @@ It shall NOT be edited by hand.
 
 # Transfer.sh pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/transfersh.svg)](https://dash.yunohost.org/appci/app/transfersh) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/transfersh.svg)](https://dash.yunohost.org/appci/app/transfersh) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)
 [![Installer Transfer.sh avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=transfersh)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Transfer.sh rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Transfer.sh rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Easy and fast file sharing from the command-line. This code contains the server with everything you need to create your own instance.
 
@@ -32,9 +32,9 @@ Transfer.sh currently supports the s3 (Amazon S3), gdrive (Google Drive), storj 
 
 **Version incluse :** 1.4.0~ynh1
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Transfer.sh](./doc/screenshots/transfer.sh-about.jpg)
+![Capture d’écran de Transfer.sh](./doc/screenshots/transfer.sh-about.jpg)
 
 ## Avertissements / informations importantes
 
@@ -59,9 +59,9 @@ $ transfer hello.txt
 https://github.com/dutchcoders/transfer.sh/blob/main/examples.md
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://transfer.sh/>
-* Documentation officielle de l'admin : <https://github.com/dutchcoders/transfer.sh/>
-* Dépôt de code officiel de l'app : <https://github.com/dutchcoders/transfer.sh>
+* Site officiel de l’app : <https://transfer.sh/>
+* Documentation officielle de l’admin : <https://github.com/dutchcoders/transfer.sh/>
+* Dépôt de code officiel de l’app : <https://github.com/dutchcoders/transfer.sh>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_transfersh>
 * Signaler un bug : <https://github.com/YunoHost-Apps/transfersh_ynh/issues>
 
@@ -77,4 +77,4 @@ ou
 sudo yunohost app upgrade transfersh -u https://github.com/YunoHost-Apps/transfersh_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
