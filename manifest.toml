@@ -36,13 +36,15 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        in_subdir = false
         arm64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.5.0/transfersh-v1.5.0-linux-arm64-v8a"
         arm64.sha256 = "03ec909032fb07a43c30705aeba05b602ed90f5e632b6d9aabefd6f15d948816"
         amd64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.5.0/transfersh-v1.5.0-linux-amd64"
         amd64.sha256 = "b60d426444af83d889c66361e2f0ed2f3929fd07dc42f5ca61379fbff7c6fc99"
         armhf.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.5.0/transfersh-v1.5.0-linux-armv7"
         armhf.sha256 = "adc753ae69daa169103dd4de58070699a4ae96a468c064acd44263a7ce4c5fb4"
+        in_subdir = false
+        extract = false
+        rename = "transfersh"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset.amd64 = "transfersh-*-linux-amd64"
