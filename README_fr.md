@@ -30,7 +30,7 @@ Transfer.sh currently supports the s3 (Amazon S3), gdrive (Google Drive), storj 
 - Preview your files in the browser
 
 
-**Version incluse :** 1.4.0~ynh1
+**Version incluse :** 1.5.0~ynh1
 
 ## Captures d’écran
 
