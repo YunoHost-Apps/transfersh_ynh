@@ -6,8 +6,8 @@ After=network.target
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/transfersh --provider=local --listener :__PORT__ --temp-path=/tmp/ --basedir=__DATADIR__
+WorkingDirectory=__INSTALL_DIR__/
+ExecStart=__INSTALL_DIR__/transfersh --provider=local --listener :__PORT__ --temp-path=/tmp/ --basedir=__DATA_DIR__
 LimitNOFILE=65536
 
 [Install]
