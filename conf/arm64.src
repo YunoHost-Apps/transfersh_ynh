@@ -1,6 +1,0 @@
-SOURCE_URL=https://github.com/dutchcoders/transfer.sh/releases/download/v1.4.0/transfersh-v1.4.0-linux-arm64-v8a
-SOURCE_SUM=cc7c8e6d1b50dc18ee901a25222d2718cc752574e4b208876cd974a1e2870f12
-SOURCE_SUM_PRG=sha256sum
-SOURCE_IN_SUBDIR=false
-SOURCE_FILENAME=transfersh
-SOURCE_EXTRACT=false
