@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Transfer.sh for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/transfersh.svg)](https://dash.yunohost.org/appci/app/transfersh) ![Working status](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/transfersh.svg)](https://dash.yunohost.org/appci/app/transfersh) ![Working status](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)
+
 [![Install Transfer.sh with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=transfersh)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -16,7 +17,6 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 ## Overview
 
 Easy and fast file sharing from the command-line. This code contains the server with everything you need to create your own instance.
-
 Transfer.sh currently supports the s3 (Amazon S3), gdrive (Google Drive), storj (Storj) providers, and local file system (local).
 
 ### Features
@@ -30,33 +30,12 @@ Transfer.sh currently supports the s3 (Amazon S3), gdrive (Google Drive), storj 
 - Preview your files in the browser
 
 
-**Shipped version:** 1.4.0~ynh1
+**Shipped version:** 1.5.0~ynh1
 
 ## Screenshots
 
 ![Screenshot of Transfer.sh](./doc/screenshots/transfer.sh-about.jpg)
 
-## Disclaimers / important information
-
-# Using the shell function
-
-### Add alias to `.bashrc` or `.zshrc`
-
-Copy and past this function into your `.bashrc` or `.zshrc` file.
-Replace `domain.tld` by your transfersh domain
-
-```
-transfer(){ if [ $# -eq 0 ];then echo "No arguments specified.\nUsage:\n  transfer <file|directory>\n  ... | transfer <file_name>">&2;return 1;fi;if tty -s;then file="$1";file_name=$(basename "$file");if [ ! -e "$file" ];then echo "$file: No such file or directory">&2;return 1;fi;if [ -d "$file" ];then file_name="$file_name.zip" ,;(cd "$file"&&zip -r -q - .)|curl --progress-bar --upload-file "-" "https://domain.tld/$file_name"|tee /dev/null,;else cat "$file"|curl --progress-bar --upload-file "-" "https://domain.tld/$file_name"|tee /dev/null;fi;else file_name=$1;curl --progress-bar --upload-file "-" "https://domain.tld/$file_name"|tee /dev/null;fi;}
-```
-Now you can use transfer function
-
-```
-$ transfer hello.txt
-```
-
-### How to
-
-https://github.com/dutchcoders/transfer.sh/blob/main/examples.md
 ## Documentation and resources
 
 * Official app website: <https://transfer.sh/>
