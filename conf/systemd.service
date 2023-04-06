@@ -7,7 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/transfersh --provider=local --listener :__PORT__ --temp-path=/tmp/ --basedir=__DATA_DIR__
+ExecStart=__INSTALL_DIR__/transfersh --provider=local --listener :__PORT__ --temp-path=/tmp/ --basedir=__DATA_DIR__ --max-upload-size=256M
 LimitNOFILE=65536
 
 # Sandboxing options to harden security
