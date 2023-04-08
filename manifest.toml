@@ -5,7 +5,7 @@ name = "Transfer.sh"
 description.en = "Easy and fast file sharing from the command-line"
 description.fr = "Partage de fichiers simple et rapide depuis la ligne de commande"
 
-version = "1.5.0~ynh2"
+version = "1.5.0~ynh3"
 
 maintainers = ["eric_G"]
 
@@ -46,10 +46,10 @@ ram.runtime = "50M"
         extract = false
         rename = "transfersh"
 
-        autoupdate.strategy = "latest_github_release"
-        autoupdate.asset.amd64 = "transfersh-*-linux-amd64"
-        autoupdate.asset.arm64 = "transfersh-*-linux-arm64-v8a"
-        autoupdate.asset.armhf = "transfersh-*-linux-armv7"
+        #autoupdate.strategy = "latest_github_release"
+        #autoupdate.asset.amd64 = "^transfersh-*-linux-amd64$"
+        #autoupdate.asset.arm64 = "^transfersh-*-linux-arm64-v8a$"
+        #autoupdate.asset.armhf = "^transfersh-*-linux-armv7$"
 
     [resources.ports]
 
