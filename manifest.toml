@@ -47,9 +47,9 @@ ram.runtime = "50M"
         rename = "transfersh"
 
         autoupdate.strategy = "latest_github_release"
-        autoupdate.asset.amd64 = "transfersh-*-linux-amd64"
-        autoupdate.asset.arm64 = "transfersh-*-linux-arm64-v8a"
-        autoupdate.asset.armhf = "transfersh-*-linux-armv7"
+        autoupdate.asset.amd64 = "^transfersh-*-linux-amd64$"
+        autoupdate.asset.arm64 = "^transfersh-*-linux-arm64-v8a$"
+        autoupdate.asset.armhf = "^transfersh-*-linux-armv7$"
 
     [resources.ports]
 
