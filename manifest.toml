@@ -5,7 +5,7 @@ name = "Transfer.sh"
 description.en = "Easy and fast file sharing from the command-line"
 description.fr = "Partage de fichiers simple et rapide depuis la ligne de commande"
 
-version = "1.5.0~ynh3"
+version = "1.6.0~ynh3"
 
 maintainers = ["eric_G"]
 
@@ -16,7 +16,7 @@ admindoc = "https://github.com/dutchcoders/transfer.sh/"
 code = "https://github.com/dutchcoders/transfer.sh"
 
 [integration]
-yunohost = ">= 11.1.17"
+yunohost = ">= 11.1.19"
 architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
 ldap = "not_relevant"
@@ -36,12 +36,12 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        arm64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.5.0/transfersh-v1.5.0-linux-arm64-v8a"
-        arm64.sha256 = "03ec909032fb07a43c30705aeba05b602ed90f5e632b6d9aabefd6f15d948816"
-        amd64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.5.0/transfersh-v1.5.0-linux-amd64"
-        amd64.sha256 = "b60d426444af83d889c66361e2f0ed2f3929fd07dc42f5ca61379fbff7c6fc99"
-        armhf.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.5.0/transfersh-v1.5.0-linux-armv7"
-        armhf.sha256 = "adc753ae69daa169103dd4de58070699a4ae96a468c064acd44263a7ce4c5fb4"
+        arm64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.6.0/transfersh-v1.6.0-linux-arm64-v8a"
+        arm64.sha256 = "6b1f09537aeaa6066c915e68afdabf7bfbd4237b6e9a9143b1d8a5d46fd9f502"
+        amd64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.6.0/transfersh-v1.6.0-linux-amd64"
+        amd64.sha256 = "e3a582a38a4b6f581d1fa1c25c7176e2614a020fc635e2766bcf20a3e70974fe"
+        armhf.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.6.0/transfersh-v1.6.0-linux-armv7"
+        armhf.sha256 = "64e19113d10cb4638b43dc95942b0c702e834ddf7011a96326fb1a0f4cca2f33"
         in_subdir = false
         extract = false
         rename = "transfersh"
