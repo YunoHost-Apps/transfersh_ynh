@@ -16,21 +16,19 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Easy and fast file sharing from the command-line. This code contains the server with everything you need to create your own instance.
-Transfer.sh currently supports the s3 (Amazon S3), gdrive (Google Drive), storj (Storj) providers, and local file system (local).
+Partage de fichiers simple et rapide depuis la ligne de commande. Ce code contient le serveur avec tout ce dont vous avez besoin pour créer votre propre instance.
+Transfer.sh prend actuellement en charge les fournisseurs Amazon S3, Google Drive, Storj et le système de fichiers local (local).
 
-### Features
+### Caractéristiques
 
-- Made for use with shell
-- Share files with a URL
-- Unlimited upload
-- Files stored forever
-- Encrypt your files
-- Maximize amount of downloads
-- Preview your files in the browser
+- Conçu pour être utilisé avec un shell
+- Partager des fichiers avec une URL
+- Téléchargement illimité
+- Fichiers stockés pour toujours
+- Chiffrez vos fichiers
+- Prévisualisez vos fichiers dans le navigateur
 
-
-**Version incluse :** 1.6.0~ynh3
+**Version incluse :** 1.6.0~ynh4
 
 ## Captures d’écran
 
