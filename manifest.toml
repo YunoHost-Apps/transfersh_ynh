@@ -16,7 +16,7 @@ admindoc = "https://github.com/dutchcoders/transfer.sh/"
 code = "https://github.com/dutchcoders/transfer.sh"
 
 [integration]
-yunohost = ">= 11.1.19"
+yunohost = ">= 11.2"
 architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
 ldap = "not_relevant"
@@ -28,8 +28,7 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-    full_domain = true
-
+    
     [install.init_main_permission]
     type = "group"
     default = "visitors"
