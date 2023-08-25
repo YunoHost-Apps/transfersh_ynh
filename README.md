@@ -26,7 +26,6 @@ Transfer.sh currently supports the s3 (Amazon S3), gdrive (Google Drive), storj 
 - Unlimited upload
 - Files stored forever
 - Encrypt your files
-- Maximize amount of downloads
 - Preview your files in the browser
 
 
