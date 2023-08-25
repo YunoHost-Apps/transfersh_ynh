@@ -5,7 +5,7 @@ name = "Transfer.sh"
 description.en = "Easy and fast file sharing from the command-line"
 description.fr = "Partage de fichiers simple et rapide depuis la ligne de commande"
 
-version = "1.6.0~ynh3"
+version = "1.6.0~ynh4"
 
 maintainers = ["eric_G"]
 
