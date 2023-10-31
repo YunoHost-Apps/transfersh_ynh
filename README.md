@@ -40,7 +40,7 @@ Transfer.sh currently supports the s3 (Amazon S3), gdrive (Google Drive), storj 
 * Official app website: <https://transfer.sh/>
 * Official admin documentation: <https://github.com/dutchcoders/transfer.sh/>
 * Upstream app code repository: <https://github.com/dutchcoders/transfer.sh>
-* YunoHost documentation for this app: <https://yunohost.org/app_transfersh>
+* YunoHost Store: <https://apps.yunohost.org/app/transfersh>
 * Report a bug: <https://github.com/YunoHost-Apps/transfersh_ynh/issues>
 
 ## Developer info
