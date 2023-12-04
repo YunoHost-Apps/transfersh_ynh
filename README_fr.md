@@ -28,7 +28,7 @@ Transfer.sh prend actuellement en charge les fournisseurs Amazon S3, Google Driv
 - Chiffrez vos fichiers
 - Prévisualisez vos fichiers dans le navigateur
 
-**Version incluse :** 1.6.0~ynh4
+**Version incluse :** 1.6.1~ynh1
 
 ## Captures d’écran
 
@@ -39,7 +39,7 @@ Transfer.sh prend actuellement en charge les fournisseurs Amazon S3, Google Driv
 * Site officiel de l’app : <https://transfer.sh/>
 * Documentation officielle de l’admin : <https://github.com/dutchcoders/transfer.sh/>
 * Dépôt de code officiel de l’app : <https://github.com/dutchcoders/transfer.sh>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_transfersh>
+* YunoHost Store: <https://apps.yunohost.org/app/transfersh>
 * Signaler un bug : <https://github.com/YunoHost-Apps/transfersh_ynh/issues>
 
 ## Informations pour les développeurs
