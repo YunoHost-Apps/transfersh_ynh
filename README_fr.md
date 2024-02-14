@@ -28,7 +28,7 @@ Transfer.sh prend actuellement en charge les fournisseurs Amazon S3, Google Driv
 - Chiffrez vos fichiers
 - Prévisualisez vos fichiers dans le navigateur
 
-**Version incluse :** 1.6.0~ynh4
+**Version incluse :** 1.6.1~ynh1
 
 ## Captures d’écran
 
