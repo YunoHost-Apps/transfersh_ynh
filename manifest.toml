@@ -16,7 +16,8 @@ admindoc = "https://github.com/dutchcoders/transfer.sh/"
 code = "https://github.com/dutchcoders/transfer.sh"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.18"
+helpers_version = "2.1"
 architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
 ldap = "not_relevant"
