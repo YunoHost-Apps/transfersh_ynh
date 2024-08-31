@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Transfer.sh pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/transfersh.svg)](https://dash.yunohost.org/appci/app/transfersh) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/transfersh.svg)](https://ci-apps.yunohost.org/ci/apps/transfersh/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)
 
 [![Installer Transfer.sh avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=transfersh)
 

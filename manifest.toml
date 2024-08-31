@@ -5,7 +5,7 @@ name = "Transfer.sh"
 description.en = "Easy and fast file sharing from the command-line"
 description.fr = "Partage de fichiers simple et rapide depuis la ligne de commande"
 
-version = "1.6.1~ynh1"
+version = "1.6.1~ynh2"
 
 maintainers = []
 
@@ -16,11 +16,15 @@ admindoc = "https://github.com/dutchcoders/transfer.sh/"
 code = "https://github.com/dutchcoders/transfer.sh"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.29"
+helpers_version = "2.1"
 architectures = ["amd64", "arm64", "armhf"]
 multi_instance = true
+
 ldap = "not_relevant"
+
 sso = "not_relevant"
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
