@@ -5,7 +5,9 @@
 
 # Transfer.sh для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/transfersh.svg)](https://ci-apps.yunohost.org/ci/apps/transfersh/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/transfersh)](https://ci-apps.yunohost.org/ci/apps/transfersh/)
+![Состояние работы](https://apps.yunohost.org/badge/state/transfersh)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/transfersh)
 
 [![Установите Transfer.sh с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=transfersh)
 
