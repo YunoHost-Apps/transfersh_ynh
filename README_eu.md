@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Transfer.sh YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/transfersh.svg)](https://ci-apps.yunohost.org/ci/apps/transfersh/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/transfersh)](https://ci-apps.yunohost.org/ci/apps/transfersh/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/transfersh)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/transfersh)
 
 [![Instalatu Transfer.sh YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=transfersh)
 

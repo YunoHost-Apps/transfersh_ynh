@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Transfer.sh para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/transfersh.svg)](https://ci-apps.yunohost.org/ci/apps/transfersh/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/transfersh)](https://ci-apps.yunohost.org/ci/apps/transfersh/)
+![Estado funcional](https://apps.yunohost.org/badge/state/transfersh)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/transfersh)
 
 [![Instalar Transfer.sh con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=transfersh)
 
@@ -45,7 +47,7 @@ Transfer.sh currently supports the s3 (Amazon S3), gdrive (Google Drive), storj 
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/transfersh_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/transfersh_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 

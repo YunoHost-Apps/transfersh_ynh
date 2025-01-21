@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Transfer.sh untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/transfersh.svg)](https://ci-apps.yunohost.org/ci/apps/transfersh/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/transfersh.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/transfersh.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/transfersh)](https://ci-apps.yunohost.org/ci/apps/transfersh/)
+![Status kerja](https://apps.yunohost.org/badge/state/transfersh)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/transfersh)
 
 [![Pasang Transfer.sh dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=transfersh)
 
