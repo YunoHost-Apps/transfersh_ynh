@@ -5,7 +5,7 @@ name = "Transfer.sh"
 description.en = "Easy and fast file sharing from the command-line"
 description.fr = "Partage de fichiers simple et rapide depuis la ligne de commande"
 
-version = "1.6.1~ynh4"
+version = "1.7.0~ynh1"
 
 maintainers = []
 
@@ -38,12 +38,12 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        arm64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.6.1/transfersh-v1.6.1-linux-arm64-v8a"
-        arm64.sha256 = "4c2eb4bf63130d01f657a495a440919e0360f2eab5c7ab50d68ab07ca415d334"
-        amd64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.6.1/transfersh-v1.6.1-linux-amd64"
-        amd64.sha256 = "46fb5ac519769bae8a626cc3f79e2101013ff13beb75d5a613b8df6970d9e27c"
-        armhf.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.6.1/transfersh-v1.6.1-linux-armv7"
-        armhf.sha256 = "6caa016b908c5cd52224e871cfab58474e36a72c11932281f7a512650433ad3b"
+        arm64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.7.0/transfersh-v1.7.0-linux-arm64-v8a"
+        arm64.sha256 = "a0a86915f7a80835543c4ae95e803d8576e8f6b08f0d81bde8e54be959c6e087"
+        amd64.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.7.0/transfersh-v1.7.0-linux-amd64"
+        amd64.sha256 = "b92edea5d03abd804e580cb37c12b106519338933c30eb9cdd2914302c129274"
+        armhf.url = "https://github.com/dutchcoders/transfer.sh/releases/download/v1.7.0/transfersh-v1.7.0-linux-armv7"
+        armhf.sha256 = "39c72acc203a097a71134584ed24e217f90180f32bad680edb4d19bcb665ee01"
         in_subdir = false
         extract = false
         rename = "transfersh"
